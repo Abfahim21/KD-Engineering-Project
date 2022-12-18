@@ -65,7 +65,7 @@
         margin: 6px 0;
     }
     .menu {
-        height: 0;
+        height: 0px;
         position: absolute;
         top: 80px;
         left:0;
@@ -90,3 +90,6 @@
         margin-bottom: 12px;
     }
 }
+
+
+/* Hero Cover Photo Section CSS Coding Starts from here */

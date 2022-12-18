@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,200&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
 }
 /* Navbar css coding starts from here */
+.logo {
+    cursor: pointer;
+}
 .navbar {
     width: 100%;
     height: 80px;
@@ -30,10 +36,10 @@
     display: block;
     color: #fefefe;
     font-size: 20px;
-    padding: 10px 25px;
-    border-radius: 50px;
+    padding: 10px 20px;
+    border-radius: 40px;
     transition: 0.2s;
-    margin: 0 -5px;
+    margin: 0px 0px;
 }
 .menu ul li a:hover {
     color: #11101b;
